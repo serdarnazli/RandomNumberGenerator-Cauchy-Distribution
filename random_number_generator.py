@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 
@@ -115,3 +116,8 @@ class RandomNumberGenerator:
         """
         return f"RandomNumberGenerator({self.x0},{self.gamma})"
     
+
+if __name__ == "__main__":
+    pass
+
+
